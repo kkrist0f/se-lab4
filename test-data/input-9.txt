@@ -1,0 +1,3 @@
+# ALL mode fires only the secondary store if the primary is empty
+GT4500,0,0,10,0
+TORPEDO,ALL  # primary is empty

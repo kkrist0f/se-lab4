@@ -1,0 +1,4 @@
+# SINGLE mode fires the primary again because the secondary is empty
+GT4500,1,0,0,0
+TORPEDO,SINGLE  # primary fired
+TORPEDO,SINGLE  # secondary is empty, primary is fired again
