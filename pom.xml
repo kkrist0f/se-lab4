@@ -51,26 +51,26 @@
 			</plugin>
 
 			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.15</version>
-				<executions>
-					<execution>
-						<id>start-agent</id>
-						<goals>
-							<goal>prepare-agent</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>generate-report</id>
-						<goals>
-							<goal>report</goal>
-						</goals>
-						<configuration>
-							<title>Coverage with JaCoCo and Maven</title>
-						</configuration>
-					</execution>
-				</executions>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.8.15</version>
+			<executions>
+				<execution>
+				<id>start-agent</id>
+				<goals>
+					<goal>prepare-agent</goal>
+				</goals>
+				</execution>
+				<execution>
+				<id>generate-report</id>
+				<goals>
+					<goal>report</goal>
+				</goals>
+				<configuration>
+					<title>Coverage with JaCoCo and Maven</title>
+				</configuration>
+				</execution>
+			</executions>
 			</plugin>
 
 			<plugin>
