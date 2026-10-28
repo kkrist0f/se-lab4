@@ -1,0 +1,3 @@
+# ALL mode fires both stores
+GT4500,10,0,10,0
+TORPEDO,ALL  # should fire from both stores

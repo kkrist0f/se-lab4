@@ -1,0 +1,4 @@
+# SINGLE mode fires the secondary store second
+GT4500,10,0,10,0
+TORPEDO,SINGLE  # should fire from the primary store
+TORPEDO,SINGLE  # should fire from the secondary store
